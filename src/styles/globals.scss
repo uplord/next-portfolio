@@ -21,7 +21,9 @@
   --border-color: #ccc;
   --border-color-hover: #aaa;
 
+  --header-color: #fff;
   --navigation-color: rgba(0,0,0,.05);
+  --navigation-color-text: inherit;
   --navigation-color-hover: rgba(0,0,0,.1);
   --navigation-color-hover-text: inherit;
 
@@ -32,7 +34,9 @@
     --border-color: #2b2b2b;
     --border-color-hover: #555;
 
+    --header-color: #0d0d0d;
     --navigation-color: #202124;
+    --navigation-color-text: #fff;
     --navigation-color-hover: #fff;
     --navigation-color-hover-text: #312e2c;
   }

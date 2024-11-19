@@ -1,6 +1,7 @@
 import React, { useEffect }  from 'react';
 import Logo from '@/components/Header/Logo';
 import Navigation from '@/components/Header/Navigation';
+import Toggle from '@/components/Toggle';
 import styles from "./style.module.scss";
 
 export default function Header() {
@@ -25,6 +26,7 @@ export default function Header() {
       <div className={`container ${styles.container || ''}`}>
         <Logo />
         <Navigation />
+        <Toggle />
       </div>
     </div>
   )
