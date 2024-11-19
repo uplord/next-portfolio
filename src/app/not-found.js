@@ -1,6 +1,6 @@
-import Link from 'next/link'
-import Buttons from "@/components/Button/Buttons";
 import styles from "@/styles/404.module.scss";
+import Logo from '@/components/Header/Logo';
+import Buttons from "@/components/Button/Buttons";
 
 export const metadata = {
   title: "404 Page not found",
@@ -16,6 +16,7 @@ export default function NotFound() {
     <div className={styles.errorPage}>
       <div className={`container`}>
         <div className={styles.content}>
+          <Logo />
           <h1>Page not found</h1>
           <p>We couldn&apos;t find the page you are looking for.</p>
           <Buttons data={buttons} className={styles.buttons} />
