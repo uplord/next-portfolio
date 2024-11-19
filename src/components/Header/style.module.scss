@@ -2,11 +2,11 @@
   position: relative;
   background: var(--header-color);
   margin-bottom: -78px;
+  z-index: 10;
 
   @media (min-width: 768px) {
     position: sticky;
     top: 0;
-    z-index: 10;
   }
 
   &.scrolled {

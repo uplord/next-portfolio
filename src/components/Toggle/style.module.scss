@@ -3,53 +3,35 @@
   margin: 1.25rem 0;
   display: flex;
   width: 76px;
-
-  &:hover {
-    cursor: pointer;
-  }
+  cursor: pointer;
 
   &.animate {
-
-    span {
-      transition: all 0.3s;
-
-      &:after {
-        transition: all 0.3s;
-      }
-    }
-
+    span, 
+    span:after, 
     svg {
       transition: all 0.3s;
     }
   }
 
   &.light {
-    span {
-
-      &:after {
-        background: #ffd43b;
-        left: 40px;
-      }
+    span:after {
+      background: #ffd43b;
+      left: 40px;
     }
 
-    svg {
-      &.sun {
-        opacity: 1;
-      }
+    .sun {
+      opacity: 1;
+    }
 
-      &.moon {
-        opacity: 0;
-      }
+    .moon {
+      opacity: 0;
     }
   }
 
   &.dark {
-    span {
-
-      &:after {
-        background: #74c0fc;
-        left: 4px;
-      }
+    span:after {
+      background: #74c0fc;
+      left: 4px;
     }
 
     svg {
@@ -67,19 +49,20 @@
 
   span {
     position: relative;
-    border-radius: 20px;
     display: block;
     height: 40px;
     width: 100%;
     background: var(--navigation-color);
+    border-radius: 20px;
 
     &:after {
       content: '';
-      border-radius: 16px;
-      height: 32px;
-      width: 32px;
       position: absolute;
       top: 4px;
+      left: 4px;
+      height: 32px;
+      width: 32px;
+      border-radius: 16px;
       z-index: 1;
     }
   }
