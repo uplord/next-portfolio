@@ -1,6 +1,7 @@
 .header {
   position: relative;
   background: #0d0d0d;
+  margin-bottom: -78px;
 
   @media (min-width: 768px) {
     position: sticky;
@@ -48,7 +49,7 @@
 .navigation {
   display: none;
   align-items: center;
-  background: #202124;
+  background: var(--navigation-color);
   color: #fff;
   border-radius: 23px;
   margin-top: 1rem;
@@ -74,8 +75,8 @@
     }
 
     &:hover {
-      background: #fff;
-      color: #312e2c;
+      background: var(--navigation-color-hover);
+      color: var(--navigation-color-hover-text);
     }
 
     &:nth-child(1) {
