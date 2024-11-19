@@ -24,6 +24,7 @@ export default function Banner() {
               quality={80}
               width={748}
               height={748}
+              priority
             />
           </div>
           <div className={styles.text}>
