@@ -1,7 +1,16 @@
 .header {
   position: relative;
-  border-bottom: 1px solid var(--border-color);
-  z-index: 10;
+  background: #0d0d0d;
+
+  @media (min-width: 768px) {
+    position: sticky;
+    top: 0;
+    z-index: 10;
+  }
+
+  &.scrolled {
+    border-bottom: 1px solid var(--border-color);
+  }
 
   .logo {
     margin: 1.1875rem auto 1.1875rem 0;

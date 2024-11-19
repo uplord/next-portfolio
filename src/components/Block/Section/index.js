@@ -1,10 +1,34 @@
 import styles from "./style.module.scss";
+import Buttons from '@/components/Button/Buttons';
+import Image from 'next/image';
 
 export default function Section() {
+  const buttons = [{
+    title: 'Get in touch',
+    link: 'mailto:michael@uplord.co.uk',
+    class: 'primary',
+  }];
+
   return (
-    <div className={styles.section}>
-      <div className={`container ${styles.container}`}>
-        Section
+    <div id="about-me" className={styles.section}>
+      <div className={`container ${styles.container || ''}`}>
+        <div className={styles.grid}>
+          <div className={styles.image}>
+            <Image
+              src="/images/me.png"
+              alt="Hi, I'm Michael"
+              quality={80}
+              width={500}
+              height={617}
+            />
+          </div>
+          <div className={styles.text}>
+            <h2>About Michael Allen</h2>
+            <h3>Front End Development</h3>
+            <p>I'm an experienced Front End Developer with excellent collaboration, organization, and teamwork skills. Passionate about developing in HTML, CSS, and JavaScript and always open to exploring new technologies. Over the last 8 years, I've worked with various clients, helping me hone my analytical, debugging, and problem-solving skills to create exceptional websites.</p>
+            <Buttons data={buttons} className={styles.buttons} />
+          </div>
+        </div>
       </div>
     </div>
   )

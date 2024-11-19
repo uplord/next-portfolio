@@ -15,7 +15,7 @@ export default function Banner() {
 
   return (
     <div className={styles.banner}>
-      <div className={`container ${styles.container}`}>
+      <div className={`container ${styles.container || ''}`}>
         <div className={styles.slide}>
           <div className={styles.image}>
             <Image
