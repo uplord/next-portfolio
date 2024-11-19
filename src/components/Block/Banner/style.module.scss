@@ -118,10 +118,11 @@
   }
 
   .buttons {
+    justify-content: center;
     margin-top: 1rem;
 
     @media (min-width: 768px) {
-      justify-content: center;
+      justify-content: flex-start;
     }
   }
 }
