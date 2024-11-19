@@ -1,0 +1,35 @@
+.header {
+  border-bottom: 1px solid var(--border-color);
+
+  .logo {
+    margin: 1.1875rem auto 1.1875rem 0;
+  }
+}
+
+.container {
+  display: flex;
+}
+
+.logo {
+  font-family: var(--heading-font);
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: var(--heading-color);
+
+  .icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--primary-color);
+    color: #fff;
+    font-size: 1.625rem;
+    width: 2.5rem;
+    height: 2.5rem;
+    border-radius: 1.25rem;
+    margin-right: 0.5rem;
+  }
+
+  .primary {
+    color: var(--primary-color);
+  }
+}
