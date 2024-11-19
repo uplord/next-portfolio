@@ -27,6 +27,8 @@
   --navigation-color-hover: rgba(0,0,0,.1);
   --navigation-color-hover-text: inherit;
 
+  --svg-fill: #000;
+
   &.dark {
     --background-color: #0d0d0d;
     --heading-color: #fff;
@@ -39,5 +41,7 @@
     --navigation-color-text: #fff;
     --navigation-color-hover: #fff;
     --navigation-color-hover-text: #312e2c;
+
+    --svg-fill: #fff;
   }
 }

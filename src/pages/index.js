@@ -21,13 +21,11 @@ export default function Home() {
         <meta name="description" content={metadata.description} />
         <link rel="icon" href="/favicon.png" type="image/png" />
       </Head>
-      <div className="">
-        <Banner />
-        <Section />
-        <Projects />
-        <Timeline />
-        <Stack />
-      </div>
+      <Banner />
+      <Section />
+      <Projects />
+      <Timeline />
+      <Stack />
     </>
   )
 }

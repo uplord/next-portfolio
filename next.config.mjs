@@ -15,6 +15,8 @@ const nextConfig = {
                   params: {
                     overrides: {
                       removeViewBox: false,
+                      cleanupIds: false,
+                      minifyStyles: false,
                     },
                   },
                 },
