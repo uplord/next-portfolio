@@ -4,7 +4,7 @@ import Svg from '@/components/Svg';
 
 export default function Projects() {
   return (
-    <div className={styles.projectsSection}>
+    <div id="projects" className={styles.projectsSection}>
       <div className={`container ${styles.container || ''}`}>
         <div className={styles.grid}>
           <div className={styles.text}>
