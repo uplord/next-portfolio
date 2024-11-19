@@ -40,7 +40,7 @@
   width: calc(50% - .5rem);
   border-radius: 1rem;
   border: 1px solid var(--border-color);
-  background: #1a1a1a;
+  background: var(--block-color);
   color: var(--svg-fill);
 
   @media (min-width: 768px) and (max-width: 1023px) {

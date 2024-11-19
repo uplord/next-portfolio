@@ -18,7 +18,7 @@
   --background-color: #fff;
   --heading-color: #000;
   --text-color: #333;
-  --border-color: #ccc;
+  --border-color: #ddd;
   --border-color-hover: #aaa;
 
   --header-color: #fff;
@@ -28,6 +28,7 @@
   --navigation-color-hover-text: inherit;
 
   --svg-fill: #000;
+  --block-color: #f7f7f7;
 
   &.dark {
     --background-color: #0d0d0d;
@@ -43,5 +44,6 @@
     --navigation-color-hover-text: #312e2c;
 
     --svg-fill: #fff;
+    --block-color: #1a1a1a;
   }
 }
