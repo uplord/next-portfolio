@@ -35,6 +35,7 @@
     }
 
     svg {
+      transform: translateY(-50%) rotate(0deg);
       left: 10px;
 
       &.sun {
@@ -71,7 +72,7 @@
     position: absolute;
     top: 50%;
     left: 46px;
-    transform: translateY(-50%);
+    transform: translateY(-50%) rotate(180deg);
     color: #fff;
     z-index: 1;
     opacity: 0;
