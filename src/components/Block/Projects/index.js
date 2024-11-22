@@ -4,18 +4,18 @@ import Svg from "@/components/Svg";
 
 const projectsData = [
   { type: "svg", name: "brewdog", tooltip: "Brewdog" },
-  { type: "svg", name: "gdk" },
-  { type: "svg", name: "subway" },
-  { type: "svg", name: "umbro" },
-  { type: "svg", name: "superga" },
-  { type: "svg", name: "dundeeunited" },
-  { type: "svg", name: "hungrrr" },
-  { type: "svg", name: "snappy" },
-  { type: "svg", name: "macdonalds" },
-  { type: "svg", name: "campbells" },
-  { type: "image", src: "/images/petervardy.png", alt: "Peter Vardy" },
-  { type: "image", src: "/images/carmoney.png", alt: "CarMoney" },
-  { type: "svg", name: "bluewater" },
+  { type: "svg", name: "gdk", tooltip: "German Doner Kebab" },
+  { type: "svg", name: "subway", tooltip: "Subway" },
+  { type: "svg", name: "umbro", tooltip: "Umbro" },
+  { type: "svg", name: "superga", tooltip: "Superga" },
+  { type: "svg", name: "dundeeunited", tooltip: "Dundee United Football Club" },
+  { type: "svg", name: "hungrrr", tooltip: "Hungrrr" },
+  { type: "svg", name: "snappy", tooltip: "Snappy Shopper" },
+  { type: "svg", name: "macdonalds", tooltip: "Macdonald Hotels & Resorts" },
+  { type: "svg", name: "campbells", tooltip: "Campbells Meat" },
+  { type: "image", src: "/images/petervardy.png", alt: "Peter Vardy", tooltip: "Peter Vardy" },
+  { type: "image", src: "/images/carmoney.png", alt: "CarMoney", tooltip: "CarMoney" },
+  { type: "svg", name: "bluewater", tooltip: "Bluewater" },
 ];
 
 export default function Projects() {

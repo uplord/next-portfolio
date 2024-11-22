@@ -11,6 +11,7 @@ export default function Banner() {
     title: 'Download CV',
     link: '/michael-allen-cv.pdf',
     class: 'link large',
+    target: '_blank',
   }];
 
   return (
