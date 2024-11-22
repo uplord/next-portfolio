@@ -13,8 +13,8 @@ export default function Stack() {
             <div data-tooltip="HTML5" className={styles.item}>
               <Svg name="html5" width={60} />
             </div>
-            <div data-tooltip="CSS3" className={styles.item}>
-              <Svg name="css3" width={60} />
+            <div data-tooltip="CSS" className={styles.item}>
+              <Svg name="css" width={60} />
             </div>
             <div data-tooltip="JavaScript" className={styles.item}>
               <Svg name="js" width={60} />
@@ -22,8 +22,11 @@ export default function Stack() {
             <div data-tooltip="Sass" className={styles.item}>
               <Svg name="sass" width={60} />
             </div>
-            <div data-tooltip="Nuxt" className={styles.item}>
-              <Svg name="nuxt" width={60} />
+            <div data-tooltip="React" className={styles.item}>
+              <Svg name="react" width={60} />
+            </div>
+            <div data-tooltip="NextJs" className={styles.item}>
+              <Svg name="nextjs" width={60} />
             </div>
             <div data-tooltip="TypeScript" className={styles.item}>
               <Svg name="typescript" width={60} />
