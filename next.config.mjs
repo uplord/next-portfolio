@@ -16,7 +16,9 @@ const nextConfig = {
                     overrides: {
                       removeViewBox: false,
                       cleanupIds: false,
+                      inlineStyles: false,
                       minifyStyles: false,
+                      mergeStyles: false,
                     },
                   },
                 },

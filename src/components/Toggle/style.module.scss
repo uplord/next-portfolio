@@ -15,7 +15,7 @@
 
   &.light {
     span:after {
-      background: #ffd43b;
+      background: var(--sun-color);
       left: 40px;
     }
 
@@ -30,7 +30,7 @@
 
   &.dark {
     span:after {
-      background: #74c0fc;
+      background: var(--moon-color);
       left: 4px;
     }
 

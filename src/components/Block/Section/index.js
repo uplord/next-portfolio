@@ -12,11 +12,11 @@ export default function Section() {
   return (
     <div id="about-me" className={styles.section}>
       <div className={`container ${styles.container || ''}`}>
-        <div className={styles.grid}>
+        <div className={styles.content}>
           <div className={styles.image}>
             <Image
               src="/images/me.png"
-              alt="Hi, I'm Michael"
+              alt="Michael Allen"
               quality={80}
               width={500}
               height={617}

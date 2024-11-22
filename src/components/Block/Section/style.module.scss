@@ -8,7 +8,7 @@
   }
 }
 
-.grid {
+.content {
   display: grid;
   gap: 1.5rem;
 
@@ -41,6 +41,7 @@
   gap: 1rem;
 
   h2 {
+    font-family: var(--heading-font);
     font-size: 1.25rem;
     font-weight: 700;
     color: var(--primary-color);
@@ -55,6 +56,7 @@
   }
 
   h3 {
+    font-family: var(--heading-font);
     font-size: 1.5rem;
     font-weight: 700;
     color: var(--heading-color);

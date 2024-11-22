@@ -8,11 +8,11 @@
   --info-color: #1164cc;
 
   --primary-color: #dd2121;
-  --primary-color-hover: #b01a1a;
+  --primary-color-hover: #{darken(#dd2121, 10%)};
   --primary-color-text: #fff;
 
   --secondary-color: #aaa;
-  --secondary-color-hover: #888;
+  --secondary-color-hover: #{darken(#aaa, 10%)};
   --secondary-color-text: #121110;
 
   --background-color: #fff;
@@ -29,6 +29,11 @@
 
   --svg-fill: #000;
   --block-color: #f7f7f7;
+  --tooltip-color: #0d0d0d;
+  --tooltip-color-text: #fff;
+
+  --sun-color: #ffd43b;
+  --moon-color: #74c0fc;
 
   &.dark {
     --background-color: #0d0d0d;
@@ -45,5 +50,7 @@
 
     --svg-fill: #fff;
     --block-color: #1a1a1a;
+    --tooltip-color: #fff;
+    --tooltip-color-text: #000;
   }
 }

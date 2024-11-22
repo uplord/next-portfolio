@@ -3,7 +3,7 @@ import Image from "next/image";
 import Svg from "@/components/Svg";
 
 const projectsData = [
-  { type: "svg", name: "brewdog" },
+  { type: "svg", name: "brewdog", tooltip: "Brewdog" },
   { type: "svg", name: "gdk" },
   { type: "svg", name: "subway" },
   { type: "svg", name: "umbro" },
@@ -28,7 +28,9 @@ export default function Projects() {
           </div>
           <div className={styles.projects}>
             {projectsData.map((project, index) => (
-              <div key={index} className={styles.project}>
+              <div key={index} className={styles.project}
+              {...(project.tooltip && { "data-tooltip": project.tooltip })}
+              >
                 {project.type === "svg" ? (
                   <Svg name={project.name} width={900} height={600} />
                 ) : (
