@@ -9,7 +9,7 @@ export default function Banner() {
     class: 'primary large',
   },{
     title: 'Download CV',
-    link: '/assets/Michael_Allen_CV.pdf',
+    link: '/michael-allen-cv.pdf',
     class: 'link large',
   }];
 
