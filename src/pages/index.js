@@ -19,7 +19,9 @@ export default function Home() {
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
-        <link rel="apple-touch-icon" href="/apple.png" />
+        <meta name="supported-color-schemes" content="dark light" />
+        <meta name="color-scheme" content="dark light" />
+        <link rel="apple-touch-icon" href="/apple.png" media="(prefers-color-scheme: light)" />
         <link rel="apple-touch-icon" href="/apple-dark.png" media="(prefers-color-scheme: dark)" />
       </Head>
       <Banner />

@@ -20,6 +20,7 @@ export default function Section() {
               quality={80}
               width={500}
               height={617}
+              priority
             />
           </div>
           <div className={styles.text}>

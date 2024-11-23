@@ -50,6 +50,15 @@ export default function Toggle() {
     favicon.rel = 'icon';
     favicon.href = newTheme === 'dark' ? '/favicon-dark.svg' : '/favicon.svg';
     document.head.appendChild(favicon);
+
+    const themeColor = document.querySelector('meta[name="theme-color"]') || document.createElement('meta');
+    if (!themeColor.hasAttribute('name')) {
+      themeColor.setAttribute('name', 'theme-color');
+    }
+    themeColor.setAttribute('content', newTheme === 'dark' ? '#0d0d0d' : '#fff');
+    if (!document.head.contains(themeColor)) {
+      document.head.appendChild(themeColor);
+    }
   };
 
   const toggleTheme = () => {
