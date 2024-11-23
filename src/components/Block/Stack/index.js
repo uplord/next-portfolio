@@ -10,45 +10,69 @@ export default function Stack() {
             <h2>My current stack</h2>
           </div>
           <div className={styles.stack}>
-            <div data-tooltip="HTML5" className={styles.item}>
-              <Svg name="html5" width={60} />
+            <div className={styles.item}>
+              <div className={styles.image} data-tooltip="HTML5">
+                <Svg name="html5" width={60} />
+              </div>
             </div>
-            <div data-tooltip="CSS" className={styles.item}>
-              <Svg name="css" width={60} />
+            <div className={styles.item}>
+              <div className={styles.image} data-tooltip="CSS">
+                <Svg name="css" width={60} />
+              </div>
             </div>
-            <div data-tooltip="JavaScript" className={styles.item}>
-              <Svg name="js" width={60} />
+            <div className={styles.item}>
+              <div className={styles.image} data-tooltip="JavaScript">
+                <Svg name="js" width={60} />
+              </div>
             </div>
-            <div data-tooltip="Sass" className={styles.item}>
-              <Svg name="sass" width={60} />
+            <div className={styles.item}>
+              <div className={styles.image} data-tooltip="Sass">
+                <Svg name="sass" width={60} />
+              </div>
             </div>
-            <div data-tooltip="React" className={styles.item}>
-              <Svg name="react" width={60} />
+            <div className={styles.item}>
+              <div className={styles.image} data-tooltip="React">
+                <Svg name="react" width={60} />
+              </div>
             </div>
-            <div data-tooltip="NextJs" className={styles.item}>
-              <Svg name="nextjs" width={60} />
+            <div className={styles.item}>
+              <div className={styles.image} data-tooltip="NextJs">
+                <Svg name="nextjs" width={60} />
+              </div>
             </div>
-            <div data-tooltip="TypeScript" className={styles.item}>
-              <Svg name="typescript" width={60} />
+            <div className={styles.item}>
+              <div className={styles.image} data-tooltip="TypeScript">
+                <Svg name="typescript" width={60} />
+              </div>
             </div>
-            <div data-tooltip="Git" className={styles.item}>
-              <Svg name="git" width={60} />
+            <div className={styles.item}>
+              <div className={styles.image} data-tooltip="Git">
+                <Svg name="git" width={60} />
+              </div>
             </div>
-            <div data-tooltip="Github" className={styles.item}>
-              <Svg name="github" width={60} />
+            <div className={styles.item}>
+              <div className={styles.image} data-tooltip="Github">
+                <Svg name="github" width={60} />
+              </div>
             </div>
-            <div data-tooltip="Amazon Web Services" className={styles.item}>
-              <Svg name="aws" width={60} />
+            <div className={styles.item}>
+              <div className={styles.image} data-tooltip="Amazon Web Services">
+                <Svg name="aws" width={60} />
+              </div>
             </div>
-            <div data-tooltip="Netlify" className={styles.item}>
-              <Svg name="netlify" width={60} />
+            <div className={styles.item}>
+              <div className={styles.image} data-tooltip="Netlify">
+                <Svg name="netlify" width={60} />
+              </div>
             </div>
-            <div data-tooltip="VS Code" className={styles.item}>
-              <Svg name="vscode" width={60} />
+            <div className={styles.item}>
+              <div className={styles.image} data-tooltip="VS Code">
+                <Svg name="vscode" width={60} />
+              </div>
             </div>
           </div>
         </div>
       </div>
     </div>
-  )
+  );
 }
