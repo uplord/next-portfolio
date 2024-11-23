@@ -1,6 +1,6 @@
 .section {
   display: block;
-  text-align: center;
+  text-align: left;
   scroll-margin-top: 110px;
 
   @media (min-width: 768px) {
@@ -27,7 +27,11 @@
 
 .image {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
+
+  @media (min-width: 768px) {
+    justify-content: center;
+  }
 
   img {
     border-radius: 1rem;
@@ -57,7 +61,7 @@
 
   h3 {
     font-family: var(--heading-font);
-    font-size: 1.5rem;
+    font-size: 1.75rem;
     font-weight: 700;
     color: var(--heading-color);
 
@@ -77,7 +81,7 @@
   }
 
   .buttons {
-    justify-content: center;
+    justify-content: flex-start;
 
     @media (min-width: 768px) {
       justify-content: flex-start;
