@@ -26,7 +26,7 @@ export default function Section() {
           <div className={styles.text}>
             <h2>About Michael Allen</h2>
             <h3>Front End Development</h3>
-            <p>I'm an experienced Front End Developer with excellent collaboration, organization, and teamwork skills. Passionate about developing in HTML, CSS, and JavaScript and always open to exploring new technologies. Over the last 8 years, I've worked with various clients, helping me hone my analytical, debugging, and problem-solving skills to create exceptional websites.</p>
+            <p>I'm an experienced Front End Developer with excellent collaboration, organization, and teamwork skills. Passionate about developing in HTML, CSS, and JavaScript and always open to exploring new technologies. Over the last 9 years, I've worked with various clients, helping me hone my analytical, debugging, and problem-solving skills to create exceptional websites.</p>
             <Buttons data={buttons} className={styles.buttons} />
           </div>
         </div>
