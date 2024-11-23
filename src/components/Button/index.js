@@ -4,8 +4,6 @@ import Svg from '@/components/Svg';
 export default function Button({ data }) {
   const buttonClasses = data.class.split(' ').map(name => styles[name] || '').join(' ');
 
-  console.log(buttonClasses)
-
   return data.link ? (
     <a
       href={data.link}
