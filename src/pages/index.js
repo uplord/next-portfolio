@@ -19,6 +19,8 @@ export default function Home() {
       <Head>
         <title>{metadata.title}</title>
         <meta name="description" content={metadata.description} />
+        <link rel="apple-touch-icon" href="/apple.png" />
+        <link rel="apple-touch-icon" href="/apple-dark.png" media="(prefers-color-scheme: dark)" />
       </Head>
       <Banner />
       <Section />

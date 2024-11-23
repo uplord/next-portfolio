@@ -46,11 +46,6 @@ export default function Toggle() {
   };
 
   const updateIcons = (newTheme) => {
-    const appleTouchIcon = document.querySelector('link[rel="apple-touch-icon"]') || document.createElement('link');
-    appleTouchIcon.rel = 'apple-touch-icon';
-    appleTouchIcon.href = newTheme === 'dark' ? '/apple-dark.png' : '/apple.png';
-    document.head.appendChild(appleTouchIcon);
-
     const favicon = document.querySelector('link[rel="icon"]') || document.createElement('link');
     favicon.rel = 'icon';
     favicon.href = newTheme === 'dark' ? '/favicon-dark.svg' : '/favicon.svg';
