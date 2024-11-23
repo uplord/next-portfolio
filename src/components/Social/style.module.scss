@@ -6,8 +6,31 @@
     gap: 1.5rem;
   }
 
+  a {
+    background: var(--primary-color);
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    transition: all .3s ease;
+
+    @media (min-width: 768px) {
+      padding: 0.5rem;
+    }
+
+    &:hover {
+      transform: scale(1.1);
+    }
+
+    &.linkedin {
+      background: #0077b5;
+    }
+
+    &.instagram {
+      background: #d62976;
+    }
+  }
+
   svg {
-    width: 32px;
+    width: 28px;
     height: auto;
 
     @media (min-width: 768px) {
