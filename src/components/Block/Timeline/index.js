@@ -34,7 +34,7 @@ export default function Timeline() {
               <p>Developing an internal business setup tool to make it easier for our team to add businesses to our system and also maintain clients. Continuing to do work for them while back at mtc due to the impact I made in the company even in just a short period of time.</p>
             </div>
             <div className={styles.block}>
-              <h3>May 2020 - July 2020</h3>
+              <h3>Sept 2015 - Sept 2021</h3>
               <h4>Front End Developer</h4>
               <Link href="https://www.mtc.co.uk/" target="_blank">
                 <Svg name="mtc-logo" height={32} />
