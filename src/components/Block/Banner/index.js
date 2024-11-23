@@ -29,7 +29,7 @@ export default function Banner() {
             />
           </div>
           <div className={styles.text}>
-            <h1><span>Hi, I'm Michael</span> A Senior Front End Developer</h1>
+            <h1><span>Hi, I'm Michael</span> A Front End Developer</h1>
             <h2>With 9 years in the industry creating websites</h2>
             <Buttons data={buttons} className={styles.buttons} />
           </div>
