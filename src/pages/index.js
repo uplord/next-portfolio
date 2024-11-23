@@ -21,9 +21,7 @@ export default function Home() {
         <meta name="description" content={metadata.description} />
         <meta name="supported-color-schemes" content="dark light" />
         <meta name="color-scheme" content="dark light" />
-        <link rel="apple-touch-icon" href="/apple.png" media="(prefers-color-scheme: light)" />
-        <link rel="apple-touch-icon" href="/apple-dark.png" media="(prefers-color-scheme: dark)" />
-        <link rel="manifest" href="/manifest.json" />
+        <link rel="apple-touch-icon" href="/apple.png" />
       </Head>
       <Banner />
       <Section />
